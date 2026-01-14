@@ -55,7 +55,7 @@ export default function CTASection() {
   }
 
   return (
-    <section className="relative w-full py-16 sm:py-20 md:py-28 lg:py-36 overflow-hidden">
+    <section id="get-started" className="relative w-full py-16 sm:py-20 md:py-28 lg:py-36 overflow-hidden">
       {/* Premium gradient background */}
       <div className="absolute inset-0 gradient-premium" />
 
