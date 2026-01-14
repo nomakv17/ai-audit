@@ -16,7 +16,7 @@ interface HeroComponentProps {
 
 const HeroComponent: React.FC<HeroComponentProps> = ({
   badge = "5 Free Audits This Month",
-  ctaText = "Let's Find Your 10 Hours",
+  ctaText = "Let's Find Your 10+ Hours",
   ctaLink = "mailto:abdul@spacevoice.ai",
   profileImage = "/taiwo-alabi.jpeg"
 }) => {

@@ -66,7 +66,7 @@ export default function CTASection() {
             className="group h-[52px] sm:h-[56px] md:h-[60px] px-8 sm:px-10 text-base sm:text-[17px] font-semibold bg-white text-primary hover:bg-white/95 shadow-premium-xl hover:-translate-y-1 transition-all duration-300 rounded-xl border-0"
           >
             <a href="mailto:abdul@spacevoice.ai">
-              Let's Find Your 10 Hours
+              Let's Find Your 10+ Hours
               <ArrowRight className="ml-2 sm:ml-3 h-4 w-4 sm:h-5 sm:w-5 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
           </Button>
