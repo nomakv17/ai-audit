@@ -33,10 +33,15 @@ export default function CTASection() {
     const formData = new FormData(form)
 
     try {
-      const response = await fetch("https://formspree.io/f/mnjjnpee", {
+      const response = await fetch("https://ai-audit-automation.onrender.com/webhooks/formspree", {
         method: "POST",
-        body: formData,
+        body: JSON.stringify({
+          name: formData.get("name"),
+          business: formData.get("business"),
+          contact: formData.get("contact")
+        }),
         headers: {
+          "Content-Type": "application/json",
           Accept: "application/json"
         }
       })
